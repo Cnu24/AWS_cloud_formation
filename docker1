@@ -1,0 +1,92 @@
+    1  clear
+    2  curl -fsSL https://get.docker.com -o get-docker.sh
+    3  ls
+    4   sh get-docker.sh
+    5  curl -fsSL https://get.docker.com -o get-docker.sh
+    6  ls
+    7   sh get-docker.sh
+    8  dockerdocker
+    9  docker
+   10  history
+   11  sudo systemctl status docker
+   12  sudo systemctl start docker
+   13  sudo systemctl enable docker
+   14  sudo systemctl status docker
+   15  clear
+   16  uname
+   17  pwd
+   18  user
+   19  sudo usermod -aG docker centos
+   20  user
+   21  sudo grep docker /etc/group
+   22  sudo usermod -aG dockercentos
+   23  sudo usermod -aG docke rcentos
+   24  sudo usermod -aG docker centos
+   25  sudo grep docker /etc/group
+   26  logout
+   27  clear
+   28  docker image ls
+   29  docker container ls
+   30  docker container ls -a
+   31  docker image ls -a
+   32  docker container run hello-world
+   33  docker image ls -a
+   34  docker container ls -a
+   35  docker container run ubuntu
+   36  docker container ls -a
+   37  docker image ls -a
+   38  docker container run -it ubuntu
+   39  docker image ls -a
+   40  docker container ls -a
+   41  docker container run -dt ubuntu
+   42  docker container ls -a
+   43  docker container exec 41729af1d3b6
+   44  docker container exec 29272096a920
+   45  docker container ls -a
+   46  docker container exec -it 29272096a920 bash
+   47  docker container exec -it 41729af1d3b6 bash
+   48  docker container exec  41729af1d3b6 ls
+   49  docker container exec  41729af1d3b6 cat /etc/os-release
+   50  docker container ls -a
+   51  docker container stop 41729af1d3b6
+   52  docker container ls -a
+   53  docker container rm  sleepy_driscoll
+   54  docker container ls -a
+   55  docker container ls -a elastic_gagarin  practical_ritchi
+   56  docker container ls -a
+   57  docker container rm  elastic_gagarin  practical_ritchi
+   58  docker container ls -a
+   59  docker container rm  elastic_gagarin  practical_ritchie
+   60  docker container ls -a
+   61  docker container start 41729af1d3b6
+   62  docker container ls -a
+   63  docker container stop 41729af1d3b6
+   64  ps -ef
+   65  docker container run -dt --name ub16 ubuntu:"
+
+   66  docker container ls -a
+   67  docker container run -dt --name ub16 ubuntu:16.04
+   68  docker container ls -a
+   69  docker images ls -a
+   70  docker images ls 
+   71  docker image ls -a
+   72  docker container run -dt --name ub16 ubuntu:16.04
+   73  docker container ls -a
+   74  docker container run -dt --name centos centos:7
+   75  docker container ls -a
+   76  docker container exec cat/etc/os-release
+   77  docker container exec  cat /etc/os-release
+   78  pf -ef
+   79  ps -ef
+   80  docker container run -dt --name web httpd
+   81  docker container ls -a
+   82  history
+   83  docker container stop{
+   84  docker container ls -a
+   85  docker container stop 11dafb6be5bb
+   86  docker container ls -a
+   87  docker container stop 148ebe4d76bb
+   88  docker container stop 037d39fc0390
+   89  docker container ls -a
+   90  docker container inspect web
+   91  history>>docker1
